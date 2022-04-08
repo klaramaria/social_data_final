@@ -1,0 +1,33 @@
+{"b3a1ad33-bbf1-45af-aa62-08ad27884297":
+	{"roots":	
+		{"references":
+			[{"attributes":{},"id":"7988","type":"LinearScale"},
+			 {"attributes":{"axis":{"id":"7996"},"dimension":1,"ticker":null},"id":"7999","type":"Grid"},
+			 {"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#3288bd"},"size":{"field":"sizes","units":"screen"},"x":{"field":"n_samples"},"y":{"field":"n_rec_crimes"}},"id":"8003","type":"Circle"},
+			 {"attributes":{"axis":{"id":"7992"},"ticker":null},"id":"7995","type":"Grid"},
+			 {"attributes":{"text":""},"id":"8007","type":"Title"},
+			 {"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"7982"}]},"id":"8000","type":"Toolbar"},
+			 {"attributes":{"index":4,"label":{"value":"Native American"},"renderers":[{"id":"8005"}]},"id":"8020","type":"LegendItem"},
+			 {"attributes":{"formatter":{"id":"8011"},"ticker":{"id":"7993"}},"id":"7992","type":"LinearAxis"},
+			 {"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#3288bd"},"size":{"field":"sizes","units":"screen"},"x":{"field":"n_samples"},"y":{"field":"n_rec_crimes"}},"id":"8004","type":"Circle"},
+			 {"attributes":{},"id":"7993","type":"BasicTicker"},#
+			 {"attributes":{"index":0,"label":{"value":"African-American"},"renderers":[{"id":"8005"}]},"id":"8016","type":"LegendItem"},
+			 {"attributes":{"source":{"id":"7981"}},"id":"8006","type":"CDSView"},{"attributes":{},"id":"7997","type":"BasicTicker"},
+			 {"attributes":{},"id":"8014","type":"UnionRenderers"},
+			 {"attributes":{"index":3,"label":{"value":"Hispanic"},"renderers":[{"id":"8005"}]},"id":"8019","type":"LegendItem"},
+			 {"attributes":{"data_source":{"id":"7981"},"glyph":{"id":"8003"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8004"},"selection_glyph":null,"view":{"id":"8006"}},"id":"8005","type":"GlyphRenderer"},
+			 {"attributes":{},"id":"8011","type":"BasicTickFormatter"},
+			 {"attributes":{"index":2,"label":{"value":"Caucasian"},"renderers":[{"id":"8005"}]},"id":"8018","type":"LegendItem"},
+			 {"attributes":{},"id":"7984","type":"DataRange1d"},
+			 {"attributes":{},"id":"8013","type":"Selection"},
+			 {"attributes":{},"id":"7986","type":"DataRange1d"},
+			 {"attributes":{"data":{"frac_crimes":{"__ndarray__":"ByJB8Cgv4j+llFJKKaXUPzC1v9T+Uts/CCpnt/Cr2T+SJEmSJEniP7rooosuutg/","dtype":"float64","order":"little","shape":[6]},"n_rec_crimes":[1894,10,935,215,8,136],"n_samples":[3333,31,2190,536,14,352],"race":["African-American","Asian","Caucasian","Hispanic","Native American","Other"],"sizes":{"__ndarray__":"K8Vl969pTEAhhBBCCCFAQI7FNRbXWEVA1phID1QOREAkSZIkSZJMQNFFF110UUNA","dtype":"float64","order":"little","shape":[6]}},"selected":{"id":"8013"},"selection_policy":{"id":"8014"}},"id":"7981","type":"ColumnDataSource"},
+			 {"attributes":{"click_policy":"hide","items":[{"id":"8016"},{"id":"8017"},{"id":"8018"},{"id":"8019"},{"id":"8020"},{"id":"8021"}]},"id":"8015","type":"Legend"},
+			 {"attributes":{"index":1,"label":{"value":"Asian"},"renderers":[{"id":"8005"}]},"id":"8017","type":"LegendItem"},
+			 {"attributes":{"index":5,"label":{"value":"Other"},"renderers":[{"id":"8005"}]},"id":"8021","type":"LegendItem"},
+			 {"attributes":{},"id":"8009","type":"BasicTickFormatter"},{"attributes":{},"id":"7990","type":"LinearScale"},
+			 {"attributes":{"formatter":{"id":"8009"},"ticker":{"id":"7997"}},"id":"7996","type":"LinearAxis"},
+			 {"attributes":{"callback":null,"tooltips":[["Race","@race"],["Nr Samples","@n_samples"],["Nr Recid Samples","@n_rec_crimes"]]},"id":"7982","type":"HoverTool"},
+			 {"attributes":{"below":[{"id":"7992"}],"center":[{"id":"7995"},{"id":"7999"},{"id":"8015"}],"left":[{"id":"7996"}],"renderers":[{"id":"8005"}],"title":{"id":"8007"},"toolbar":{"id":"8000"},"x_range":{"id":"7984"},"x_scale":{"id":"7988"},"y_range":{"id":"7986"},"y_scale":{"id":"7990"}},"id":"7983","subtype":"Figure","type":"Plot"}],"root_ids":["7983"]},"title":"Bokeh Application","version":"2.1.1"}}
+
+		

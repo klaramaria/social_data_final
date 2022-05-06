@@ -3,75 +3,103 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Final Project in Social Data Visualization and Analysis - Human and Environmental analysis of electric car distribution and ownership. ">
     <title>Social Data Visualization</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
+
   <body>
 
-    <section class="sec-01">
+
+    <div class="navbar">
+      <!-- <div class="container">
+          <a class="logo" href="index.html">DTU <span>Courses</span></a>
+      </div> -->
+      <nav class="navMenu">
+            <a href="#anchor1">Introduction</a>
+            <a href="#anchor2">Geographics</a>
+            <a href="#anchor3">Ownership</a>
+            <a href="#">About</a>
+            <a href="#">Sources</a> 
+      </nav>
+    </div>
+
+    <section class="sec-01" id="anchor1">
       <div class="container">
-        <h2 class="main-title">Electric Vehicles</h2>
+        <h2 class="sec-01-title">Electric Vehicles</h2>
+        <ul>
+            <li>
+            <div class="content">
+            <img src="docs/electric_car.jpg" alt="Image of a car" class="electric-car">
+            <div class="text-box">
+              <h3>Sales of Cars and Purpose of Article</h3>
+              <p>Here we'll have a text describing the rise in sales of electric cars over the last years and how much 
+                more there's being sold (exponential trend). We say that we want to find out what this trend means on a social 
+                level. Who are the people that buy electric cars. 
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="content">
+              <img src="docs/electric_car.jpg" alt="Image of a car" class="electric-car">
+              <div class="text-box">
+                <h3>Environmental Background</h3>
+                <p>
+                  Here we'll have a text saying something about the Environmental impact of electric cars. How much better are they?
+                  We'll put some footnotes in that we might make an extra tab for (sources).  We put in a graph describing 
+                  electricity in California as a note on how there is still a lot to be done. 
+                </p>
+              </div>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="sec-02" id="anchor2">
+      <div id="wrapper">
+        <h3 class="sec-02-title">Vehicles in San Francisco</h3>
+        <div id="sticky">
+            <iframe id='sticky_image' src="zip_codes_CA_very_very_small.html" allowfullscreen="true" width="100%"></iframe>
+        </div>
+      </div>
+
+      <div class="content2">         
+        <div class="info">
+          <h4 class="info-title">Description</h4>
+          <p>
+            We describe the prevalence of electric cars in different areas of California. 
+            This can be paired with some information on which area we're talking about. 
+          </p>
+        </div>
+
+        <div class="info2">
+          <h4 class="info-title">Description</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="sec-03" id="anchor3">
+      <div class="container">
+        <h3 class="sec-03-title">Who actually owns electric cars?</h3>
         <div class="content">
           <div class="image">
-            <img src="electric_car.jpg" alt="Image of a car">
+            <img src="docs/people.jpg" alt="">
           </div>
           <div class="text-box">
-            <h3>Lorem Ipsum</h3>
+            <h3>Illuminating the audience about Car owners</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-        </div>
-        <div class="media-icons">
-          <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </section>
-    <section class="sec-02">
-      <div id="wrapper">
-        <h3 class="section-title">Vehicles in San Francisco</h3>
-        <div id="sticky">
-            <img id='sticky_image' src="sanfrancisco.jpg" alt="Folium Map of SF">
-        </div>
-      </div>
-
-        <div class="content2">         
-          <div class="info">
-            <h4 class="info-title">Description</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
 
-          <div class="info2">
-            <h4 class="info-title">Description</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-        </div>
-
-
-    </section>
-    <section class="sec-03">
-      <div class="container">
-        <h3 class="section-title">Who actually owns electric cars?</h3>
-        <div class="content">
-          <div class="media-info">
-            <div class="'text-box">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-          </div>
-          <div class="image">
-            <img src="people.jpg" alt="">
-          </div>
         </div>
       </div>
     </section>
@@ -90,7 +118,7 @@
 
       //target elements, and specify options to create reveal animations
       ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
-      ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+      ScrollReveal().reveal('.sec-01 .image, .info, .info2', { delay: 600, origin: 'bottom' });
       ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
       ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
       ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });

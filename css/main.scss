@@ -5,6 +5,7 @@
     }
   }
 
+
 :root {
     --dtu-color: #990000;
 }
@@ -234,12 +235,27 @@
     padding: 3em;
     .source-section-title {
         font-size: 4em;
-        text-align: center;
         color: lightgray;
         margin-bottom: 50px;
     }
-    .content{
-        display: flex;
-        align-items: center;
+    li {
+        padding: 4px 0px 2px 00px;
     }
+    a {
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 500;
+        width: 25%;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        float: right;
+        margin-right: 25em;
+    }
+    a:hover {
+        color: var(--dtu-color);
+    }
+
 }
+

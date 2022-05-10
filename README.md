@@ -45,3 +45,11 @@ We have chosen the following visualizations:
 
 
 # Section 6: Discussion
+* What went well?
+The Discussion of the energy resources easily serves us in making an argument that we need to look at electric mobility in a more holistic way. As we can see the biggest part in energy consumption is still coming from fossile fuels. The time-trend also doesn't give off the impression that any goals close to the 1.5% goal could be met. 
+You can definitely see a lot of the trends that we expected: There's the income split when it comes to EV Owners, there's the regional differences which correspond to the political differences (poorer, more republican and less EVs on the countryside = countrywards side of California).
+PCA went decently well - of course there's the issue of categorical data, which can be mitigated by normalizing and one-hot-encoding. We can see some principal components which are able to provide some insight to EV Owners.
+
+* What is still missing? What could be improved? Why?
+In general the Machine Learning Part was more difficult than expected. Already the mix between categorical and ordinal data makes the choice in algorithms a lot smaller. We tried then doing a classification, both a normal Cassification Tree and a Random Forest. Those seemed promising at first, but in closer view they had a very low precision (around 25%), which means that it classified a gread number of non-electric vehicles as electric. 
+The second method was a clustering, which accounts for the categorical natrue of the data. It is called k-modes clustering (as compared to k-means clustering). This proved to be too undynamic, and mostly data stayed in the classes it was initialized in. But this heavily depends on the number of initialized clusters and how we initialized, so there's room for improvement there. 

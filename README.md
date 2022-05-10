@@ -22,12 +22,12 @@
 * Write a short section that discusses the dataset stats, containing key points/plots from your exploratory data  analysis.
 
 As we have 5 datasets we won't describte the pre-processing of all of them in detail, as a lot of them are analogous. We will take the two datasets of the National Travel Household Survey and of the Electric Vehicles per Zipcode, as those represent the biggest sets and encompass all the methods that we used on the other sets. 
-* The basic stats of the National Travel Household Survey can be found in the notebook [nths.ipynb](fill in link).
+* The basic stats of the National Travel Household Survey can be found in the notebook [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb).
 * The basic stats of 
 
 # Section 3: Data Analysis 
 * Insights into what we have learned about ... 
-* Insight into how we used Machine Learning can be found in the notebook [nths.ipynb](fill in link), Section 3.
+* Insight into how we used Machine Learning can be found in the notebook [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), Section 3.
 
 # Section 4: Genre 
 * Which genre of data story did you use?
@@ -37,10 +37,10 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
 # Section 5: Visualizations
 We have chosen the following visualizations: 
 
-* Jitter Plot: To visualize the classes of EV and Non-EV-Owners along one axis (this axis being a principal component). See notebook  [nths.ipynb](fill in link), section 4. 
+* Jitter Plot: To visualize the classes of EV and Non-EV-Owners along one axis (this axis being a principal component). See notebook  [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), section 4. 
 * Chlorophleth Map: 
 * Histogram: 
-* Bar Plot:
+* Bar Plot: (James please fill in - link to your notebook)
 
 
 # Section 6: Discussion

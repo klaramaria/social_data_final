@@ -49,6 +49,11 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
     All of our choropleth maps contains the ability to zoom, further we use motion in our gif describing the energy sources of california from the past 10 years. The zooming enables the reader to chose a zertain geographical area of interest and then see how many cars for instance are in his or her neighbourhood. The motion forces the reader how each category grows and declines over time. 
 * Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?
 
+For the narative structure we used the interactivity: hover tool in the spatial data, this was a natural choice as we wanted the reader to
+have the freedom of browing around them self and check data for certain geographical areas. Also we used annotation to guide the reader in which areas the most EV where or the richest people live, as it otherwise would have been troublesome to find. To optimize this part we could have implemted a search function which would highlight the ZCTA that one searched for.
+
+For the ordering we used linear ordering as the overall genre is slideshow, but we also implemented buttons at the top enabling the reader to drop to a certain sections which could be understood as minor implementation of "user-directed path"
+
 # Section 5: Visualizations
 We have chosen the following visualizations: 
 

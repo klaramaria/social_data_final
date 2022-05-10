@@ -53,6 +53,18 @@
 .sec-01 {
     background: #111222;
     display: block;
+    ul {
+        list-style-type: none;
+        text-align: center;
+        li {
+            display: block;
+            img {
+                margin-bottom: 3em;
+                
+                width: 800px;
+            }   
+        }
+    }
     .sec-01-title {
         font-size: 4em;
         text-align: center;

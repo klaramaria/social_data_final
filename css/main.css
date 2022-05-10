@@ -53,6 +53,20 @@
   display: block;
 }
 
+.sec-01 ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.sec-01 ul li {
+  display: block;
+}
+
+.sec-01 ul li img {
+  margin-bottom: 3em;
+  width: 800px;
+}
+
 .sec-01 .sec-01-title {
   font-size: 4em;
   text-align: center;

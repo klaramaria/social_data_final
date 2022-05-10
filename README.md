@@ -2,7 +2,7 @@
 
 ## Contributions
 | Description | s202182  | s174182 | s220034 |
-| ------------- | ------------- |
+| ------------- | ------------- |-----------|-----------|
 | Web-Design (CSS&HTML)  | 100%  | | |
 | Section 1 (Electricity) Visualizations, Data Analysis  |  | | 100% |
 | Section 2 (Geography) Visualizations, Data Analysis | | 100% | |
@@ -29,6 +29,8 @@
 
 # Section 2: Basic Stats 
 * Write about your choices in data cleaning and preprocessing
+* Regarding the spatial data not all sources provided the data at ZCTA level, aggregation was therefore nessecary, for instance regarding the political orientation plot, was delivered nationally for USA at cencus block level, this can be seen in [gov_data.ipynb]( section Election). All other states therefore needed to be sorted out afterwards the cencus level was aggregated to ZCTA level. Finally the data which had no corresponding coordinates where filtered out as well. This in principle meant that some data was lost, but in the purpose of spatial illustrations it was necessary.
+* 
 * Write a short section that discusses the dataset stats, containing key points/plots from your exploratory data  analysis.
 
 As we have 5 datasets we won't describte the pre-processing of all of them in detail, as a lot of them are analogous. We will take the two datasets of the National Travel Household Survey and of the Electric Vehicles per Zipcode, as those represent the biggest sets and encompass all the methods that we used on the other sets. 
@@ -41,8 +43,10 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
 
 # Section 4: Genre 
 * Which genre of data story did you use?
-* The genre we have chosen is a combination of slideshow and 
+   The genre we have chosen is a combination of interactive slideshow with a few annotated elements. The slideshow is chosen as it gives some chronological story, and the annotated part is chosen to highlight focus points of the data which contributes to the overall story.
+   
 * Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
+    All of our choropleth maps contains the ability to zoom, further we use motion in our gif describing the energy sources of california from the past 10 years. The zooming enables the reader to chose a zertain geographical area of interest and then see how many cars for instance are in his or her neighbourhood. The motion forces the reader how each category grows and declines over time. 
 * Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?
 
 # Section 5: Visualizations

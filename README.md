@@ -46,7 +46,8 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
    The genre we have chosen is a combination of interactive slideshow with a few annotated elements. The slideshow is chosen as it gives some chronological story, and the annotated part is chosen to highlight focus points of the data which contributes to the overall story.
    
 * Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
-    All of our choropleth maps contains the ability to zoom, further we use motion in our gif describing the energy sources of california from the past 10 years. The zooming enables the reader to chose a zertain geographical area of interest and then see how many cars for instance are in his or her neighbourhood. The motion forces the reader how each category grows and declines over time. 
+
+All of our choropleth maps contains the ability to zoom, further we use motion in our gif describing the energy sources of california from the past 10 years. The zooming enables the reader to chose a zertain geographical area of interest and then see how many cars for instance are in his or her neighbourhood. The motion forces the reader how each category grows and declines over time. 
 * Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?
 
 For the narative structure we used the interactivity: hover tool in the spatial data, this was a natural choice as we wanted the reader to

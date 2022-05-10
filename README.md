@@ -66,8 +66,8 @@ For the ordering we used linear ordering as the overall genre is slideshow, but 
 We have chosen the following visualizations: 
 
 * Jitter Plot: To visualize the classes of EV and Non-EV-Owners along one axis (this axis being a principal component). See notebook  [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), section 4. 
-* Chlorophleth Map: This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb)
-* Histogram: This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 4
+* Chlorophleth Map: As we wanted to examine geographically how the electric vehicles were distributed it was a natural choice to illustrate the spatial data using a chloropleth map, as one quickly and easy can get an overview of the density of cars. This way we could also visually get to compare political orientation, income against the statewise distribution of the EV. This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb)
+* Histogram: We created histograms to see and compare how the income and amount electric vehicles are distributed. We chose the histograms because it illustrates the major features of the distribution of the data in a convenient form, and it build well on top to do this comparison based on the previous choropleth maps. This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 4
 * Bar Plot: [CA_ER.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/California_electricity_resources.ipynb)
 
 

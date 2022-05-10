@@ -31,6 +31,7 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
 
 # Section 4: Genre 
 * Which genre of data story did you use?
+* The genre we have chosen is a combination of slideshow and 
 * Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
 * Which tools did you use from each of the 3 categories of Narrative Structure (Figure 7 in Segal and Heer). Why?
 

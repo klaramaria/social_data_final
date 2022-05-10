@@ -29,7 +29,7 @@
 
 # Section 2: Basic Stats 
 * Write about your choices in data cleaning and preprocessing
-* Regarding the spatial data not all sources provided the data at ZCTA level, aggregation was therefore nessecary, for instance regarding the political orientation plot, was delivered nationally for USA at cencus block level, this can be seen in [gov_data.ipynb]( section Election). All other states therefore needed to be sorted out afterwards the cencus level was aggregated to ZCTA level. Finally the data which had no corresponding coordinates where filtered out as well. This in principle meant that some data was lost, but in the purpose of spatial illustrations it was necessary.
+* Regarding the spatial data not all sources provided the data at ZCTA level, aggregation was therefore nessecary, for instance regarding the political orientation plot, was delivered nationally for USA at cencus block level, this can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) Section Election. All other states therefore needed to be sorted out afterwards the cencus level was aggregated to ZCTA level. Finally the data which had no corresponding coordinates where filtered out as well. This in principle meant that some data was lost, but in the purpose of spatial illustrations it was necessary.
 * 
 * Write a short section that discusses the dataset stats, containing key points/plots from your exploratory data  analysis.
 

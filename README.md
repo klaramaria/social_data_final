@@ -12,6 +12,8 @@
 
 # Section 1: Motivation 
 * What is your dataset(s)
+* Data is collected within the following drive folder: https://drive.google.com/drive/folders/1ygnINx5muTMUc-qjpCuII8dc97OYThUM
+* Original sources can be seen below.
     We have a couple of different datasets , each addressing different questions. 
     * National Travel Household Survey: [Link]("https://nhts.ornl.gov/")
     * Electoral Data: [Link](https://alarm-redist.github.io/posts/2021-08-10-census-2020/)

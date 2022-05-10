@@ -16,7 +16,7 @@
     * National Travel Household Survey: [Link]("https://nhts.ornl.gov/")
     * Electoral Data: [Link](https://alarm-redist.github.io/posts/2021-08-10-census-2020/)
     * Income Data: [Link](https://data.census.gov/cedsci/)
-    * Distribution of EVs: [Link]("http://www.energy.ca.gov/zevstats") 
+    * Distribution of EVs: [Link](http://www.energy.ca.gov/zevstats) 
     * Energy Generation: [Link](https://www.energy.ca.gov/data-reports/energy-almanac/california-electricity-data/california-electrical-energy-generation)
     * California Power Plants: [Link](https://cecgis-caenergy.opendata.arcgis.com/datasets/CAEnergy::california-power-plants/about)
 * Why did you choose those datasets:

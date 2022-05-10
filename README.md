@@ -1,6 +1,7 @@
 # Social Data Final Project
-Notebooks can be seen within the folder notebooks.
-link to webpage: https://klaramaria.github.io/social_data_final/
+### Notebooks can be seen within the folder notebooks.
+
+### link to webpage: https://klaramaria.github.io/social_data_final/
 ## Contributions
 | Description | s202182  | s174182 | s220034 |
 | ------------- | ------------- |-----------|-----------|

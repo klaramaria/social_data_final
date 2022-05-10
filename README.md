@@ -34,11 +34,13 @@
 
 As we have 5 datasets we won't describte the pre-processing of all of them in detail, as a lot of them are analogous. We will take the two datasets of the National Travel Household Survey and of the Electric Vehicles per Zipcode, as those represent the biggest sets and encompass all the methods that we used on the other sets. 
 * The basic stats of the National Travel Household Survey can be found in the notebook [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb).
-* The basic stats of vehicle distribution can be found in the notebook [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb), 
+* The basic stats of vehicle distribution can be found in the notebook [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) 
 
 
 # Section 3: Data Analysis 
-* Insights into what we have learned about ... 
+* Insights into what we have learned about
+
+As alot of the data had origins in Amercian geographics data we have definietly learned that doing spatial data analysis on a fine resolution is not trivial as alot of remapping needs to be done. Further we could see an exponentially increasing market share of EV visible in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 2, and also relatively clear patterns between income and ownership of electric vehicles, this was visible in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 4.
 * Insight into how we used Machine Learning can be found in the notebook [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), Section 3.
 
 # Section 4: Genre 

@@ -55,7 +55,7 @@ We have chosen the following visualizations:
 * Jitter Plot: To visualize the classes of EV and Non-EV-Owners along one axis (this axis being a principal component). See notebook  [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), section 4. 
 * Chlorophleth Map: 
 * Histogram: 
-* Bar Plot: (James please fill in - link to your notebook)
+* Bar Plot: [CA_ER](https://github.com/klaramaria/social_data_final/blob/main/notebooks/California_electricity_resources.ipynb)
 
 
 # Section 6: Discussion

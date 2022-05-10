@@ -1,5 +1,7 @@
 # Social Data Final Project
+### Notebooks can be seen within the folder notebooks.
 
+### link to webpage: https://klaramaria.github.io/social_data_final/
 ## Contributions
 | Description | s202182  | s174182 | s220034 |
 | ------------- | ------------- |-----------|-----------|
@@ -12,6 +14,8 @@
 
 # Section 1: Motivation 
 * What is your dataset(s)
+* Data is collected within the following drive folder: https://drive.google.com/drive/folders/1ygnINx5muTMUc-qjpCuII8dc97OYThUM
+* Original sources can be seen below.
     We have a couple of different datasets , each addressing different questions. 
     * National Travel Household Survey: [Link]("https://nhts.ornl.gov/")
     * Electoral Data: [Link](https://alarm-redist.github.io/posts/2021-08-10-census-2020/)
@@ -29,7 +33,8 @@
 
 # Section 2: Basic Stats 
 * Write about your choices in data cleaning and preprocessing
-* Regarding the spatial data not all sources provided the data at ZCTA level, aggregation was therefore nessecary, for instance regarding the political orientation plot, was delivered nationally for USA at cencus block level, this can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) Section 2: subsection: Election. All other states therefore needed to be sorted out afterwards the cencus level was aggregated to ZCTA level. Finally the data which had no corresponding coordinates where filtered out as well. This in principle meant that some data was lost, but in the purpose of spatial illustrations it was necessary.
+
+Regarding the spatial data not all sources provided the data at ZCTA level, aggregation was therefore nessecary, for instance regarding the political orientation plot, was delivered nationally for USA at cencus block level, this can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) Section 2: subsection: Election. All other states therefore needed to be sorted out afterwards the cencus level was aggregated to ZCTA level. Finally the data which had no corresponding coordinates where filtered out as well. This in principle meant that some data was lost, but in the purpose of spatial illustrations it was necessary.
 * Write a short section that discusses the dataset stats, containing key points/plots from your exploratory data  analysis.
 
 As we have 5 datasets we won't describte the pre-processing of all of them in detail, as a lot of them are analogous. We will take the two datasets of the National Travel Household Survey and of the Electric Vehicles per Zipcode, as those represent the biggest sets and encompass all the methods that we used on the other sets. 
@@ -62,9 +67,9 @@ For the ordering we used linear ordering as the overall genre is slideshow, but 
 We have chosen the following visualizations: 
 
 * Jitter Plot: To visualize the classes of EV and Non-EV-Owners along one axis (this axis being a principal component). See notebook  [nths.ipynb](https://github.com/klaramaria/social_data_final/blob/main/nationalTravelSurvey/nths.ipynb), section 4. 
-* Chlorophleth Map: This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb)
-* Histogram: This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 4
-* Bar Plot: [CA_ER.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/California_electricity_resources.ipynb)
+* Chlorophleth Map: As we wanted to examine geographically how the electric vehicles were distributed it was a natural choice to illustrate the spatial data using a chloropleth map, as one quickly and easy can get an overview of the density of cars. This way we could also visually get to compare political orientation, income against the statewise distribution of the EV. This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb)
+* Histogram: We created histograms to see and compare how the income and amount electric vehicles are distributed. We chose the histograms because it illustrates the major features of the distribution of the data in a convenient form, and it build well on top to do this comparison based on the previous choropleth maps. This can be seen in [gov_data.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/gov_data.ipynb) section 4
+* Bar Plot: We would like to know the configuration of electricity generation in Califonia to realize if the energy for electric vehicles to operate is an environmentally friendly resource. Hence, we searched for electricity generation and the power plants in California to determine whether electric cars are worth investing in for environmental protection in this region and continue to do this topic. In order to compare each category of the resource, we think the best way to make people analyze clearly is to perform these data into bar chart plots. The all bar chart plots code could be seen in here [CA_ER.ipynb](https://github.com/klaramaria/social_data_final/blob/main/notebooks/California_electricity_resources.ipynb)
 
 
 # Section 6: Discussion

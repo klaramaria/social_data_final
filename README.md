@@ -1,5 +1,15 @@
 # Social Data Final Project
 
+## Contributions
+| Description | s202182  | s174182 | s220034 |
+| ------------- | ------------- |
+| Web-Design (CSS&HTML)  | 100%  | | |
+| Section 1 (Electricity) Visualizations, Data Analysis  |  | | 100% |
+| Section 2 (Geography) Visualizations, Data Analysis | | 100% | |
+| Section 3 (PCA) Visualizations, Data Analysis | 100% | | | 
+| Readme & Explanatory Notebooks | 40% | 40% | 20% | 
+
+
 # Section 1: Motivation 
 * What is your dataset(s)
     We have a couple of different datasets , each addressing different questions. 

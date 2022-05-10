@@ -58,6 +58,7 @@
   text-align: center;
   color: lightgray;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .sec-01 .content {
@@ -87,8 +88,8 @@
   width: 500px;
   position: relative;
   z-index: 2;
-  top: 5em;
-  right: 10em;
+  top: 1em;
+  right: 7em;
 }
 
 .sec-01 .content .text-box h3 {
@@ -285,14 +286,13 @@
 .source-section a {
   color: #f6f4e6;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
   text-transform: uppercase;
   font-weight: 500;
-  width: 25%;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   float: right;
-  margin-right: 15em;
+  margin-right: 10em;
 }
 
 .source-section a:hover {

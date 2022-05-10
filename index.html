@@ -12,7 +12,7 @@
   </head>
 
   <body>
-
+    <SCRIPT TYPE="text/javascript"> function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); return false; } </SCRIPT>
 
     <div class="navbar">
       <!-- <div class="container">
@@ -22,13 +22,15 @@
             <a href="#anchor1">Introduction</a>
             <a href="#anchor2">Geographics</a>
             <a href="#anchor3">Ownership</a>
-            <a href="#">About</a>
+            <a href="https://github.com/klaramaria/social_data_final">About (Github)</a>
             <a href="sources.html">Sources</a> 
       </nav>
     </div>
 
     <section class="sec-01" id="anchor1">
       <div class="container">
+        <div style="font: 20px Poppins; color: lightgray">Before we start: Github sometimes automatically adjusts the size of the items
+        on the website. If you use an 11''-screen we recommend a zoom of 67%, otherwise it should look allright. To go to the Github-Repo click on the <a href="https://github.com/klaramaria/social_data_final">About</a>-Tab in the menu bar.</div>
         <h2 class="sec-01-title">Electric Vehicles</h2>
         Electric vehicles are quite often praised as the future of mobility. The benefits are of course undeniable: better air quality, 
         more efficient use of energy (especially in cities) and noise reduction. (For more on this, see <a href="sources.html#benefitsevs">[1]</a> ).
@@ -42,10 +44,16 @@
             <div class="content">
             <img src="docs/PowerPlantsPrimaryResorces.png" alt="Image of a car" class="electric-car">
             <div class="text-box">
-              <h3>Sales of Cars and Purpose of Article</h3>
-              <p>Here we'll have a text describing the rise in sales of electric cars over the last years and how much 
-                more there's being sold (exponential trend). We say that we want to find out what this trend means on a social 
-                level. Who are the people that buy electric cars. 
+              <h3>Energy Plants in California</h3>
+              <p>
+                Here we can see what categories the power plants in California fall into.We can see that it looks 
+                like three out of the 4 most present categories are renewables: Water (Hydro), Wind and Sun-Power. 
+                However hopeful this trend might look, we'll see in the next graph that this is indeed misleading and should serve
+                to the reader as a warning of staying mistrustful of graphs. 
+              </p>
+              <p>
+                The reason is quite obviously that solar plants as well as other renewables are quite often way more localized
+                and small power plants, thus driving up the total number of plants. 
               </p>
             </div>
           </li>
@@ -53,11 +61,16 @@
             <div class="content">
               <img src="docs/California_power_generation_per_year.gif" alt="Image of a car" class="electric-car">
               <div class="text-box">
-                <h3>Environmental Background</h3>
+                <h3>Change in Energy Generation</h3>
                 <p>
-                  Here we'll have a text saying something about the Environmental impact of electric cars. How much better are they?
-                  We'll put some footnotes in that we might make an extra tab for (sources).  We put in a graph describing 
-                  electricity in California as a note on how there is still a lot to be done. 
+                  This animation graph shows the alternation of different resources used for power generation 
+                  in the last ten years since we are concerned about if the energy resources to offer electric 
+                  vehicles are environmentally friendly in California. As we can see there's a steady decline in
+                fossile energies, namely natural gas, which is, however, still the most prevalent source of energy.</p> 
+                <p>
+                  We can see that the quantity of natural gas has decreased remarkably in 2015 and 2016, maintaining the number until 
+                  2019. It seems a good trend, nevertheless one is left with the question of whether those goals are
+                  enough to possibly meet the 1.5° (or even the 2°) UN Goal.
                 </p>
               </div>
           </div>
@@ -143,10 +156,16 @@ orientation.
           </div>
           <div class="text-box">
             <h3>Map of Income Data</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
+            <p>As mentioned before certain areas of California are known to be extremely wealthy especially the southern part of San Fransisco bay, which
+              contain areas as silicon valley. We can now again illustrate the income as spatial data in order to see which areas has greater income.
+              The median income level is chosen as it is a more adequate measurement for income compared to mean value, as outliers would heavily affect these.
+              </p><p>
+              Not surprisingly the richest areas are again south of california and north of Los angeles, we observe the richest area is ZCTA: 94027.
+              This ZCTA code lays as a suburb of San Fransisco, and is within the same area of where we before observed a large fraction of electric vehicles, and in fact this was also the ZCTA containing the largest relative proportion of EV.
+              A plot illustrating the relationship of income and EV can be seen further down the page. </p> <p>
+              In the last plot of this section the reader can him or herself interact with the map and check income and amount of EV for specific ZTCA</p>
+            </p>
+            </div>
         </div>
         <div class="content2">
           <h4>Compare the data directly</h4>
@@ -165,9 +184,11 @@ and electric vehicles.
             <iframe src="docs/Household_vs_EV_Income.html" height='600'  width='1600' frameborder="0"></iframe>
             <div class="text-box"> 
               <p>
-                Here we can see an interesting skewed distribution for both curves. Howwever we can see there's a significant
-                difference in the income of EV Owners and owners of regular vehicles. Namely EV-Owners are significantly wealthier
-                than the other group. 
+                In above histogram two different plots are illustrated, amount of ZCTA that has a certain income (first y-axis) and amount of EV pr income aggregated across the ZCTA (second y-axis).
+Looking at this we clearly observe that the majority of the electric vehicles are located within the richer ZCTA. We can see this as the electric vehicle car distribution layes further to the right than the income distribution.
+We also observe that the income looks like a skew normal distribution, which is indicated by the mode lying left of the median.
+The electric vehicle distribution seem to follow the same behaviour. </p><p>
+It is also noticable that there is some noise occuring at the furthest to the right bin, as the data goes from {0,250.000+} there seem to be an increase here, but in reality the figure might actually just flatten further out. 
               </p>
             </div>
           </div>
@@ -317,7 +338,8 @@ and electric vehicles.
          use public transport more (which is of course quite correlated). Principal component three seems to entirely
          separate the data, but here we need to be careful. This component contain, among others the separator "alternative fuel". 
          So this will of course have this separation. The reader is welcome to continue this data exploration, using 
-         the slideshows presented. 
+         the slideshows presented. Furthermore there's an attempt at a RandomForest Classifier, which we deemed not 
+         having relevant enough results, so it can be found in the <a href="https://github.com/klaramaria/social_data_final">About</a>-Section. 
       </div>
     </section>
 

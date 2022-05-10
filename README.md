@@ -43,7 +43,8 @@ As we have 5 datasets we won't describte the pre-processing of all of them in de
 
 # Section 4: Genre 
 * Which genre of data story did you use?
-   The genre we have chosen is a combination of interactive slideshow with a few annotated elements. The slideshow is chosen as it gives some chronological story, and the annotated part is chosen to highlight focus points of the data which contributes to the overall story.
+
+The genre we have chosen is a combination of interactive slideshow with a few annotated elements. The slideshow is chosen as it gives some chronological story, and the annotated part is chosen to highlight focus points of the data which contributes to the overall story.
    
 * Which tools did you use from each of the 3 categories of Visual Narrative (Figure 7 in Segal and Heer). Why?
 

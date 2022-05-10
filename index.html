@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Final Project in Social Data Visualization and Analysis - Human and Environmental analysis of electric car distribution and ownership. ">
     <title>Social Data Visualization</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -98,8 +99,10 @@
         <div class="content2">
           <h4>Compare the data directly</h4>
           <div class="inlined-graphs">
-            <iframe src="docs/tmp.html" height = '800', width = '1500' frameborder="0"></iframe>
-            <iframe src="docs/tmp.html" height = '800', width = '1500' frameborder="0"></iframe>
+            <iframe src="docs/tmp.html" frameborder="0" scrolling="yes"                       
+            height="700px" width="90%"></iframe>
+            <iframe src="docs/tmp.html" frameborder="0" scrolling="yes"                           
+            height="700px" width="90%"></iframe>
           </div>
         </div>
         <div class="content2">
@@ -130,28 +133,136 @@
         find the axes along which the dataset has most variance, thus making them the most central factors of the dataset. 
         Let's inspect the significant variables in the first three principal components so that we get a feeling for 
         what they represent: 
-        <div class="content">
-          <div class="image">
-            <img src="docs/princ_comp1.png" alt="">
-            <img src="docs/princ_comp2.png" alt="">
-            <img src="docs/princ_comp3.png" alt="">
+        <div class="w3-content w3-display-container">
+
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp1.png" style="width: 100%;">
           </div>
-        </div>
-        We can describe component 1 as an occupation vector, vector 2 seems to be a combination of transportation habits,
-        especially public transport. Vector 3 contains variables on electric or hybrid car ownership, paired with information on education and age. 
-        We plot the electric vehicle owners on these axes to see if they look different than the distribution of regular vehicle owners (which we suspect). 
-        <div class="content">
-          <div>
-            <img src="docs/people.jpg" alt="">
+          
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp2.png" style="width:100%">
           </div>
-          <div class="text-box">
-            <h3>Can Electric Vehicle Ownership be pre</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp3.png" style="height:700px">
           </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp4.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp5.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp6.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp7.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp8.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp9.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides">
+            <img src="docs/princ_comp10.png" style="width:100%">
+          </div>
+          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
         </div>
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+        </script>
+        We can describe component 1 as an occupation vector, vector 2 seems to be a combination of transportation habits,
+        especially public transport. Vector 3 contains variables on electric or hybrid car ownership, paired with information on education and age. 
+        We can continue evaluating the other variables that way. In this case there's the 10 principal components, who account in total for around 40% of the
+        variance in the dataset. This might not seem like a lot but keep in mind that in this dataset there's a total of 89 principal components.
+        We plot the electric vehicle owners on these axes to see if they look different than the distribution of regular vehicle owners (which we suspect). For 
+        this we choose a jitter plot, so it is just the value on the principal component axes, with some noise added to make 
+        it visual. 
+        <div class="w3-content w3-display-container">
+
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes1.png" style="width: 100%;">
+          </div>
+          
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes2.png" style="width:100%">
+          </div>
+          
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes3.png" style="height:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes4.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes5.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes6.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes7.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes8.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes9.png" style="width:100%">
+          </div>
+          <div class="w3-display-container mySlides2">
+            <img src="docs/princ_comp_classes10.png" style="width:100%">
+          </div>
+          <button class="w3-button w3-display-left w3-black" onclick="plusDivs2(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-black" onclick="plusDivs2(1)">&#10095;</button>
+
+        </div>
+        <script>
+          var slideIndex2 = 1;
+          showDivs2(slideIndex2);
+
+          function showDivs2(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides2");
+            if (n > x.length) {slideIndex2 = 1}
+            if (n < 1) {slideIndex2 = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            x[slideIndex2-1].style.display = "block";  
+          }
+
+          function plusDivs2(n) {
+            showDivs2(slideIndex2 += n);
+          }
+          
+        </script>
+         We can start to see some interesting patterns. The forst component for example seems to have two classes, 
+         although electric and non-electric vehicles are equally present among both classes. For component 2, the 
+         classes of electric and non-electric vehicle owners are a bit separated, although overlapping, The EV-owners 
+         seem to generally have a higher value of this component, indicating that they live in more urban areas and 
+         use public transport more (which is of course quite correlated). Principal component three seems to entirely
+         separate the data, but here we need to be careful. This component contain, among others the separator "alternative fuel". 
+         So this will of course have this separation. The reader is welcome to continue this data exploration, using 
+         the slideshows presented. 
       </div>
     </section>
 

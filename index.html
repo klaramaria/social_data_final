@@ -30,10 +30,17 @@
     <section class="sec-01" id="anchor1">
       <div class="container">
         <h2 class="sec-01-title">Electric Vehicles</h2>
+        Electric vehicles are quite often praised as the future of mobility. The benefits are of course undeniable: better air quality, 
+        more efficient use of energy (especially in cities) and noise reduction. (For more on this, see <a href="sources.html#benefitsevs">[1]</a> ).
+        For those reasons electric vehicles are heavily subsidized, when buying but also in taxes in a lot of countries. Howwever
+        all of this comes with caveats, and that's what we'll examine in this article. Where does the electricity actually come from? 
+        Who buys those cars? What does that tell us about this change. We'll focus in on the state of California,
+        famously pioneering in envionmental innovation. We start by taking a closer look at where the electricity in California comes from. 
+      
         <ul>
             <li>
             <div class="content">
-            <img src="docs/electric_car.jpg" alt="Image of a car" class="electric-car">
+            <img src="docs/PowerPlantsPrimaryResorces.png" alt="Image of a car" class="electric-car">
             <div class="text-box">
               <h3>Sales of Cars and Purpose of Article</h3>
               <p>Here we'll have a text describing the rise in sales of electric cars over the last years and how much 
@@ -63,34 +70,79 @@
     <section class="sec-02" id="anchor2">
       <div class="container">
         <h3 class="sec-02-title">Geographics</h3>
+        We will now try to take a look at the following three topics. Electric vehicle distribution (absolute and relative), Income and politcal
+orientation.
         <div class="content">
           <div class="image">
-            <img src="docs/people.jpg" alt="">
+            <img src="docs/Absolute_ev.png" alt="">
           </div>
           <div class="text-box">
-            <h3>Map of total cars</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h3>Total Amount of Cars</h3>
+            <p>Lets initially get an overview of how electric vehicles distribute in the state of California.
+              With 2987 Electric vehicles is 94539 the ZCTA which has the most EV, on the other hand multiple ZCTA has no electriv vehicles registred.
+               </p>
+               <p>
+              As there is a large difference inbetween the amount of cars pr ZCTA it's chosen to plot the heat scale in the interval {0,max(EV)25%}
+            </p>
+            <p>
+              Below is seen a map where the total number of EV pr ZCTA is illustrated, looking briefly at the map one can quickly observe,
+              that the amount of ev is greater around the larger cities as Los Angeles and San Fransisco.
+              If one zooms in on San Fransico there is also a larger proportion of cars in the southern part of San Fransico bay, respectively the
+              area of Santa Clara. This area is also commonly known as the richest County of California. 
+            </p><p>
+              But just inspecting the total amount of cars can be a bit misleading, as the plot showed there were more EV around the larger cities,
+              but this is also where the most people live, so lets instead look at how large a fraction EV makes in the total car population.</p>
+            </p>
+            </div>
+        </div>
+        <div class="content">
+          <div class="image">
+            <img src="docs/Relative_ev.png" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Fraction of Electric Vehicles</h3>
+            <p>Now when we inspect the fraction level we still see a pattern of higher densities around larger cities. But the suburbs now also seem
+              to play a more significant role. Inspecting the data a bit further we also see that the "leader" of EV has changed from 94539, which
+              has the highest absolute value of electric vehicles, but only a fraction of 7.4% to 94027 which has an electric vehicle share of 10.4%.
+              But again as with the illustration of abosolut amount of EV, the following conclusion can be drawn, that most electric vehicles are located,
+              with urban areas.
+              </p>
           </div>
         </div>
         <div class="content">
           <div class="image">
-            <img src="docs/people.jpg" alt="">
+            <img src="docs/polical_map.png" alt="">
           </div>
-          <div class="text-box">
-            <h3>Map of fraction of total cars</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-        </div>
-        <div class="content">
-          <div class="image">
-            <img src="docs/people.jpg" alt="">
-          </div>
-          <div class="text-box">
+          <div class="text-box" style = 'width: 800px'>
             <h3>Map of electoral data</h3>
+            <p>Another interesting aspect of the car ownership could be to look at how the cars are distributed depending on the political orientation
+              of a certain geographical area. The Democrates are known to be more proactive of green energy and electric vehicles than the Republicans.
+              But lets try to take a look at the data. </p>
+              <p>              
+              Just as the distribution of cars, there is again a clear distinction between city areas and country sides.
+              The city areas are mostly Democraticly dominated, where the country sides have a majority of Republicans.
+            </p>
+            <p>
+              If we try to compare the ZCTA which has a majority of democrates against the ZCTA which has a majority of republicans.
+              We see that the average fraction of EV in republican ZCTA is: 1.46%
+              And the average fraction of EV in Democratic ZCTA is: 0.48%  
+            </p>
+            <p>
+              Comparing these two with a t-test we get a p value of: 4.01*10^{-40}
+            </p> <p>
+              This clearly indicates that the two distributions are statistically different. One should though be careful in the conclusions
+              that just because one is republican there is a smaller chance of owning an electric vehicle.
+              If we look back at the map we could see that people living in larger cities in general had more electric vehicles, this could
+              go hand in hand with the fact of people living in the cities in general drive shorter distances, and also remembering 
+              that people </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="image">
+            <img src="docs/Income_ev.png" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Map of Income Data</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
               aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -98,6 +150,8 @@
         </div>
         <div class="content2">
           <h4>Compare the data directly</h4>
+          Below one can use the maps and easily compare different ZCTA codes to check relationships between income, political orientation,
+and electric vehicles.
           <div class="inlined-graphs">
             <iframe src="docs/tmp.html" frameborder="0" scrolling="yes"                       
             height="700px" width="90%"></iframe>
@@ -108,7 +162,7 @@
         <div class="content2">
           <h4>Household income and EVs</h4>
           <div class="content2-info">
-            <iframe src="docs/Household_vs_EV_Income.html" height='600'  width='1800' frameborder="0"></iframe>
+            <iframe src="docs/Household_vs_EV_Income.html" height='600'  width='1600' frameborder="0"></iframe>
             <div class="text-box"> 
               <p>
                 Here we can see an interesting skewed distribution for both curves. Howwever we can see there's a significant
@@ -125,12 +179,13 @@
     <section class="sec-03" id="anchor3">
       <div class="container">
         <h3 class="sec-03-title">The axes of vehicle ownership</h3>
-        In the following we will be working with a dataset, called the National Household Travel Survey <a href="sources.html">[1]</a>. 
+        In the following we will be working with a dataset, called the National Household Travel Survey <a href="sources.html#nhts">[2]</a>. 
         This dataset contains a great number of variables. The information include income, occupation, living situation and travelling habits. 
         We can describe the habits and variables of electric vehicle owners compared to general vehicle owners. 
         It is hard to keep track of all those variables though, and humans can only see 3 dimensions, so in order to make 
         the data more accessible, we revert to a technique called Principal Component Analysis. This allows us to 
         find the axes along which the dataset has most variance, thus making them the most central factors of the dataset. 
+        To read more about this see for example  <a href="sources.html#pca">[3]</a>.
         Let's inspect the significant variables in the first three principal components so that we get a feeling for 
         what they represent: 
         <div class="w3-content w3-display-container">
